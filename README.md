@@ -47,12 +47,21 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://github.com/facebookexperimental/Recoil - more flexible state management needed for dynamic dependencies, but not nice to use due to boilerplate
 - https://github.com/solidjs/solid - faster due to fine grained dependencies -> no virtual DOM, but requires a bit more discipline, seems to solve many of React's problems, nice docs
 
-### Server
+### Server: render views, serve static files, API
 - https://github.com/vercel/next.js/ - deals with SSR, auth, but requires React and overall opinionated, don't like the verbose/inflexible file-based routing
 - https://github.com/expressjs/express - simple and widespread, but bare-bones and old
 
-### Database
+### Database abstraction, ORM, query builder
 - https://github.com/prisma/prisma - Nicely typed query builder and migrations, but does not support unions. Issues:
   - [Support for a Union type](https://github.com/prisma/prisma/issues/2505#issuecomment-785229500)
   - [Option brand the model name into data](https://github.com/prisma/prisma/issues/5315)
-- https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in additions supports unions and inheritance.
+- https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in addition supports unions and inheritance.
+
+### BaaS (self-hosted)
+- Database, API, permissions, dasboard
+  - https://github.com/directus/directus - REST+GraphQL for any existing SQL database, dashboard to manage data
+  - https://github.com/surrealdb/surrealdb - realtime document-graph database with REST, custom QL, optional schema, GraphQL planned, dashboard planned
+- ... and auth - open-source Firebase alternatives
+  - https://github.com/supabase/supabase - supposedly hard to self-host; realtime REST+GraphQL on Postgres, files, dashboard
+  - https://github.com/appwrite/appwrite - easy self-host via Docker, PHP, NoSQL API for MariaDB, dashboard
+  - https://github.com/pocketbase/pocketbase - Go backend in one file, SQLite with realtime REST
