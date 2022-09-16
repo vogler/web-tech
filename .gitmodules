@@ -1,0 +1,6 @@
+[submodule "tasktime_svelte-firebase"]
+	path = tasktime_svelte-firebase
+	url = https://github.com/vogler/tasktime-2019
+[submodule "tasktime_snowpack-react-chakra-prisma"]
+	path = tasktime_snowpack-react-chakra-prisma
+	url = https://github.com/vogler/tasktime-2021
