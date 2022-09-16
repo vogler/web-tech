@@ -8,7 +8,10 @@ It's not motivating to waste time on research and setup just because some other 
 
 The included repos use different technologies for a similar web app - some todo/task/time tracker.
 
-Similar idea, but didn't like it since it's outdated and does not include backends: https://todomvc.com
+- [tasktime-2019](https://github.com/vogler/tasktime-2019) - Svelte (reactive UI), Firebase (auth, hosted real-time document store), Bulma (CSS)
+- [tasktime-2021](https://github.com/vogler/tasktime-2021) - Snowpack (build, dev), React (reactive UI), Chakra (UI component lib), Prisma (typed DB query builder), grant (auth)
+
+The idea of https://todomvc.com is similar, but it's outdated and does not include backends.
 
 ## General opinions
 
