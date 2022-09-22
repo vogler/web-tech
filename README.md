@@ -41,6 +41,9 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://rebassjs.org/ - few components
   - https://tamagui.dev/ - few components, supports React Native
   - https://chakra-ui.com/ - few form components
+- Table/DataGrid:
+  - https://github.com/ag-grid/ag-grid - {React, Angular, Vue, JS}, styling, many features, charts, nice docs/examples
+  - https://github.com/TanStack/table - {React, Vue, Solid, Svelte, JS}, no styling, docs not as nice
 
 ### Reactive UI
 - https://github.com/facebook/react/ - works, biggest community, but slow due to virtual DOM diffing
