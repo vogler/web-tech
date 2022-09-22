@@ -45,7 +45,11 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 ### Reactive UI
 - https://github.com/facebook/react/ - works, biggest community, but slow due to virtual DOM diffing
   - https://github.com/facebookexperimental/Recoil - more flexible state management needed for dynamic dependencies, but not nice to use due to boilerplate
-- https://github.com/solidjs/solid - faster due to fine grained dependencies -> no virtual DOM, but requires a bit more discipline, seems to solve many of React's problems, nice docs
+  - [React I Love You, But You're Bringing Me Down](https://marmelab.com/blog/2022/09/20/react-i-love-you.html)
+- https://github.com/solidjs/solid - faster due to fine grained dependencies -> no virtual DOM, but requires a bit more discipline, seems to solve many of React's problems, nice docs. However, can't just use all of the React libraries:
+  - https://www.solidjs.com/guides/faq#is-there-react-compat-or-some-way-to-use-my-react-libraries-in-solid
+  - https://www.solidjs.com/guides/faq#does-solid-have-a-nextjs-or-material-components-like-library-i-can-use
+  - There are also projects that have versions for {React, Vue, Solid, Svelte, JS}: https://github.com/TanStack/table
 
 ### Server: render views, serve static files, API
 - https://github.com/vercel/next.js/ - deals with SSR, auth, but requires React and overall opinionated, don't like the verbose/inflexible file-based routing
