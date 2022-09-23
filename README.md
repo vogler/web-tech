@@ -68,7 +68,13 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - Database, API, permissions, dasboard
   - https://github.com/directus/directus - REST+GraphQL for any existing SQL database, dashboard to manage data
   - https://github.com/surrealdb/surrealdb - realtime document-graph database with REST, custom QL, optional schema, GraphQL planned, dashboard planned
+  - https://github.com/amplication/amplication - REST+GraphQL, MySQL
 - ... and auth - open-source Firebase alternatives
   - https://github.com/supabase/supabase - supposedly hard to self-host; realtime REST+GraphQL on Postgres, files, dashboard
   - https://github.com/appwrite/appwrite - easy self-host via Docker, PHP, NoSQL API for MariaDB, dashboard
   - https://github.com/pocketbase/pocketbase - Go backend in one file, SQLite with realtime REST
+
+### Reverse proxy / load balancing
+- https://github.com/NickMRamirez/Proxy-Benchmarks - fast to slow: HAProxy, NGINX, Envoy, Traefik, Caddy
+- https://github.com/caddyserver/caddy - Go web server with automatic HTTPS (Let's Encrypt), HTTP/3, reverse proxy, load balancing, caching, nicer to use but slower than nginx/haproxy/traefik, https://caddyserver.com - `caddy file-server --domain example.com` `caddy reverse-proxy --from example.com --to localhost:9000`
+- https://github.com/NginxProxyManager/nginx-proxy-manager - web interface to manage proxy hosts for nginx
