@@ -76,6 +76,8 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - [Support for a Union type](https://github.com/prisma/prisma/issues/2505#issuecomment-785229500)
   - [Option brand the model name into data](https://github.com/prisma/prisma/issues/5315)
 - https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in addition supports unions and inheritance.
+- https://github.com/kysely-org/kysely - TS-only query builder, just checks queries against supplied types for tables, migration only via supplied functions -> not as convenient as Prisma
+  - https://github.com/WiseLibs/better-sqlite3 - recommended for sqlite
 
 ### BaaS (self-hosted)
 - Database, API, permissions, dashboard
