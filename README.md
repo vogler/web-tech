@@ -54,6 +54,19 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://www.solidjs.com/guides/faq#does-solid-have-a-nextjs-or-material-components-like-library-i-can-use
   - There are also projects that have versions for {React, Vue, Solid, Svelte, JS}: https://github.com/TanStack/table
 
+### Forms/validation
+- https://github.com/react-hook-form/react-hook-form - form state management and validation
+  - https://github.com/jaredpalmer/formik is too heavy/verbose
+- https://github.com/colinhacks/zod - schema validation with static type inference
+  - https://github.com/colinhacks/zod#comparison
+  - https://github.com/react-hook-form/resolvers#zod
+
+### (Type-safe) client-server requests
+- https://github.com/trpc/trpc - client imports router type from server
+
+### Frontend frameworks for existing backend
+- https://github.com/marmelab/react-admin - React/MUI for REST+GraphQL backends, ListGuesser to render tables based on type of data
+
 ### Server: render views, serve static files, API
 - https://github.com/vercel/next.js/ - deals with SSR, auth, but requires React and overall opinionated, don't like the verbose/inflexible file-based routing
 - https://github.com/expressjs/express - simple and widespread, but bare-bones and old
@@ -65,7 +78,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in addition supports unions and inheritance.
 
 ### BaaS (self-hosted)
-- Database, API, permissions, dasboard
+- Database, API, permissions, dashboard
   - https://github.com/directus/directus - REST+GraphQL for any existing SQL database, dashboard to manage data
   - https://github.com/surrealdb/surrealdb - realtime document-graph database with REST, custom QL, optional schema, GraphQL planned, dashboard planned
   - https://github.com/amplication/amplication - REST+GraphQL, MySQL
