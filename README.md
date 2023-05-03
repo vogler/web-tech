@@ -58,8 +58,10 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - https://github.com/react-hook-form/react-hook-form - form state management and validation
   - https://github.com/jaredpalmer/formik is too heavy/verbose
 - https://github.com/colinhacks/zod - schema validation with static type inference
-  - https://github.com/colinhacks/zod#comparison
+  - https://github.com/colinhacks/zod#comparison - better than Joi, Yup, etc.
   - https://github.com/react-hook-form/resolvers#zod
+- https://github.com/arktypeio/arktype - like zod, but uses static/dynamic parser for string literals instead of method chaining
+  - [ArkType Vs Zod](https://gist.github.com/ssalbdivad/d60d876ab6486adc97e38e3f6916e93f), [reddit](https://www.reddit.com/r/node/comments/11l35tg/introducing_arktype_typescript_you_can_take_to/)
 
 ### (Type-safe) client-server requests
 - https://github.com/trpc/trpc - client imports router type from server
