@@ -64,7 +64,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - [ArkType Vs Zod](https://gist.github.com/ssalbdivad/d60d876ab6486adc97e38e3f6916e93f), [reddit](https://www.reddit.com/r/node/comments/11l35tg/introducing_arktype_typescript_you_can_take_to/)
 
 ### (Type-safe) client-server requests
-- https://github.com/trpc/trpc - client imports router type from server
+- https://github.com/trpc/trpc - client imports router type from server; [blog post](https://colinhacks.com/essays/painless-typesafety)
 
 ### Frontend frameworks for existing backend
 - https://github.com/marmelab/react-admin - React/MUI for REST+GraphQL backends, ListGuesser to render tables based on type of data
@@ -72,6 +72,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 ### Server: render views, serve static files, API
 - https://github.com/vercel/next.js/ - deals with SSR, auth, but requires React and overall opinionated, don't like the verbose/inflexible file-based routing
 - https://github.com/expressjs/express - simple and widespread, but bare-bones and old
+- https://github.com/koajs/koa - a bit more modern than express
 
 ### Database abstraction, ORM, query builder
 - https://github.com/prisma/prisma - Nicely typed query builder and migrations, but does not support unions. Issues:
@@ -86,6 +87,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://github.com/directus/directus - REST+GraphQL for any existing SQL database, dashboard to manage data
   - https://github.com/surrealdb/surrealdb - realtime document-graph database with REST, custom QL, optional schema, GraphQL planned, dashboard planned
   - https://github.com/amplication/amplication - REST+GraphQL, MySQL
+  - https://github.com/zenstackhq/zenstack - extends Prisma schema language with access control, plugins to generate tRPC router, Zod, React hooks
 - ... and auth - open-source Firebase alternatives
   - https://github.com/supabase/supabase - supposedly hard to self-host; realtime REST+GraphQL on Postgres, files, dashboard
   - https://github.com/appwrite/appwrite - easy self-host via Docker, PHP, NoSQL API for MariaDB, dashboard
