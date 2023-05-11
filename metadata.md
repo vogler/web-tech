@@ -1,0 +1,1 @@
+- https://ogp.me - Open Graph protocol - metadata for webpages, e.g. title, type, image, permanent URL - useful for link preview
