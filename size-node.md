@@ -1,0 +1,8 @@
+- https://stackoverflow.com/questions/40642008/how-do-i-view-the-size-of-npm-packages
+- Web
+  - https://packagephobia.com - shows publish (just source) and install (with deps) size for recent versions
+    - https://github.com/styfle/packagephobia#how-is-this-different
+  - https://bundlephobia.com - shows minified + gzipped size after bundling with webpack
+- npx
+  - https://github.com/megahertz/howfat - show npm package size, #deps, #files, license as tree, table, json, simple - all info from npmjs.com, not local size on disk
+  - https://github.com/egoist/npm-size - similar, but not as many options
