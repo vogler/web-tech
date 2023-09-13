@@ -1,2 +1,3 @@
 - https://github.com/automerge/automerge 13.9k, A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
 - https://github.com/yjs/yjs 9.2k, Shared data types for building collaborative software. Has editor bindings for Monaco, Quill, Remirror, ProseMirror...
+- https://github.com/mycelial/mycelial-js 39, Build local-first, distributed, decentralized applications
