@@ -81,6 +81,18 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in addition supports unions and inheritance.
 - https://github.com/kysely-org/kysely - TS-only query builder, just checks queries against supplied types for tables, migration only via supplied functions -> not as convenient as Prisma
   - https://github.com/WiseLibs/better-sqlite3 - recommended for sqlite
+- https://github.com/gajus/slonik - type-safe query builder for PostgreSQL, but just uses template strings for SQL (so, no auto-complete?)
+- [YT: BF: I tried 8 different Postgres ORMs](https://www.youtube.com/watch?v=4QN1BzxF8wM)
+  - pg https://github.com/brianc/node-postgres
+  - postgres.js https://github.com/porsager/postgres
+  - knex https://github.com/knex/knex
+  - kysely https://github.com/kysely-org/kysely
+  - sequelize https://github.com/sequelize/sequelize
+  - typeorm https://github.com/typeorm/typeorm
+  - prisma https://github.com/prisma/prisma
+  - drizzle https://github.com/drizzle-team/drizzle-orm
+- https://github.com/typeorm/typeorm - schema by annotating classes, tried in https://github.com/vogler/syncmine and had issues with basic key constraints: [primary](https://github.com/typeorm/typeorm/issues/3238), [unique](https://github.com/typeorm/typeorm/issues/4122)
+- https://github.com/drizzle-team/drizzle-orm - type-safe query builder with schema definition similar to Zod (infers type from value), supports many DBs
 
 ### BaaS (self-hosted)
 - Database, API, permissions, dashboard
