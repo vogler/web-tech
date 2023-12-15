@@ -96,6 +96,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 
 ### BaaS (self-hosted)
 - Database, API, permissions, dashboard
+  - https://github.com/strapi/strapi - headless CMS with nice content-type builder, REST+GraphQL
   - https://github.com/directus/directus - REST+GraphQL for any existing SQL database, dashboard to manage data
   - https://github.com/surrealdb/surrealdb - realtime document-graph database with REST, custom QL, optional schema, GraphQL planned, dashboard planned
   - https://github.com/amplication/amplication - REST+GraphQL, MySQL
