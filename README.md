@@ -77,6 +77,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 ### Database abstraction, ORM, query builder
 - https://github.com/prisma/prisma - Nicely typed query builder and migrations, but does not support unions. Issues:
   - [Support for a Union type](https://github.com/prisma/prisma/issues/2505#issuecomment-785229500)
+    - maybe will be solved by [ZenStack](https://zenstack.dev/blog/polymorphism) at some point
   - [Option brand the model name into data](https://github.com/prisma/prisma/issues/5315)
 - https://github.com/edgedb/edgedb - Replacement for Prisma? Also has TypeScript Query Builder, but in addition supports unions and inheritance.
 - https://github.com/kysely-org/kysely - TS-only query builder, just checks queries against supplied types for tables, migration only via supplied functions -> not as convenient as Prisma
