@@ -49,6 +49,9 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - Table/DataGrid:
   - https://github.com/ag-grid/ag-grid - {React, Angular, Vue, JS}, styling, many features, charts, nice docs/examples
   - https://github.com/TanStack/table - {React, Vue, Solid, Svelte, JS}, no styling, docs not as nice
+- Icons:
+  - explore/search many icon packs: https://icones.js.org
+  - nice set of ~6k icons: https://tabler.io/icons
 
 ### Reactive UI
 - https://github.com/facebook/react/ - works, biggest community, but slow due to virtual DOM diffing
