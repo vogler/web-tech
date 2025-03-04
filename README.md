@@ -55,8 +55,12 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - nice set of ~6k icons: https://tabler.io/icons
 
 ### Reactive UI
-- https://github.com/facebook/react/ - works, biggest community, but slow due to virtual DOM diffing
-  - https://github.com/facebookexperimental/Recoil - more flexible state management needed for dynamic dependencies, but not nice to use due to boilerplate
+- https://github.com/facebook/react/ - works, biggest community, but slow due to virtual DOM diffing, React Compiler can add memoization, but not supported well yet (in Next.js only via Webpack)
+  - state management: go for jotai
+    - https://zustand.docs.pmnd.rs/getting-started/comparison
+    - top-down single store (like Redux): https://github.com/pmndrs/zustand 
+    - bottom-up composition of atoms (like Recoil but w/o the ugly strings): https://github.com/pmndrs/jotai
+    - old: https://github.com/facebookexperimental/Recoil - more flexible state management needed for dynamic dependencies, but not nice to use due to boilerplate
   - [React I Love You, But You're Bringing Me Down](https://marmelab.com/blog/2022/09/20/react-i-love-you.html)
 - https://github.com/solidjs/solid - faster due to fine grained dependencies -> no virtual DOM, but requires a bit more discipline, seems to solve many of React's problems, nice docs. However, can't just use all of the React libraries:
   - https://www.solidjs.com/guides/faq#is-there-react-compat-or-some-way-to-use-my-react-libraries-in-solid
