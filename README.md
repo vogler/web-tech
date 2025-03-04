@@ -40,7 +40,12 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://ant.design/components/overview/ - autocomplete, date/time picker, tree select, cascade select
   - https://rebassjs.org/ - few components
   - https://tamagui.dev/ - few components, supports React Native
-  - https://chakra-ui.com/ - few form components
+  - https://chakra-ui.com/ - few form components, https://v2.chakra-ui.com/getting-started/comparison
+- https://github.com/shadcn-ui/ui - copies code of components, can diff, but not nice that it always copies and not just for components you want to change
+- https://www.reddit.com/r/reactjs/comments/vtgbai/comparison_of_ui_libraries_for_react/
+  - https://github.com/themesberg/flowbite - based on Tailwind
+  - https://github.com/saadeghi/daisyui - based on Tailwind
+- https://github.com/ariakit/ariakit - recommended for high quality components: https://ariakit.org/components
 - Table/DataGrid:
   - https://github.com/ag-grid/ag-grid - {React, Angular, Vue, JS}, styling, many features, charts, nice docs/examples
   - https://github.com/TanStack/table - {React, Vue, Solid, Svelte, JS}, no styling, docs not as nice
