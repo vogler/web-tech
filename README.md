@@ -67,6 +67,20 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://www.solidjs.com/guides/faq#does-solid-have-a-nextjs-or-material-components-like-library-i-can-use
   - There are also projects that have versions for {React, Vue, Solid, Svelte, JS}: https://github.com/TanStack/table
 
+### Mobile
+- go for Progressive Web App with responsive layout if possible; if not go for Expo
+- some things only work with Chrome: https://caniuse.com/web-bluetooth
+- web-hybrid: go for ionic/react if there's already a web app: webview + access to native SDK: https://github.com/ionic-team/ionic-framework - old: Capacitor, Cordova
+  - https://ionic.io/resources/articles/ionic-vs-react-native-a-comparison-guide
+- hybrid-native: go for React Native via Expo for mobile-first apps
+  - https://expo.dev build for iOS/Android/Web and submit to app stores
+  - file-based routing like Next.js: https://docs.expo.dev/router/introduction/
+  - why bother with Flutter?
+- https://onestack.dev web + React Native via Vite plugin
+  - Sync engine: https://zero.rocicorp.dev
+- https://tamagui.dev UI for web + React Native with optional compiler, but missing things like menu
+  - https://tamagui.dev/docs/intro/why-a-compiler
+
 ### Forms/validation
 - https://github.com/react-hook-form/react-hook-form - form state management and validation
   - https://github.com/jaredpalmer/formik is too heavy/verbose
