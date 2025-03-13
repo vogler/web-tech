@@ -122,6 +122,12 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 - https://github.com/typeorm/typeorm - schema by annotating classes, tried in https://github.com/vogler/syncmine and had issues with basic key constraints: [primary](https://github.com/typeorm/typeorm/issues/3238), [unique](https://github.com/typeorm/typeorm/issues/4122)
 - https://github.com/drizzle-team/drizzle-orm - type-safe query builder with schema definition similar to Zod (infers type from value), supports many DBs
 
+### Sync, local-first, CRDT
+- see CRDT.md; local-first software: https://www.inkandswitch.com/local-first/
+- https://electric-sql.com realtime sync for Postgres
+- https://onestack.dev Sync engine: https://zero.rocicorp.dev
+- https://github.com/toeverything/octobase local-first DB used by Affine
+
 ### BaaS (self-hosted)
 - Database, API, permissions, dashboard
   - https://github.com/strapi/strapi - headless CMS with nice content-type builder, REST+GraphQL
