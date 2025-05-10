@@ -92,6 +92,8 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
 
 ### (Type-safe) client-server requests
 - https://github.com/trpc/trpc - client imports router type from server; [blog post](https://colinhacks.com/essays/painless-typesafety)
+- [ ] check oRPC (supports OpenAPI docs) instead of tRPC instead of server actions?
+  - https://orpc.unnoq.com/docs/comparison via [9:44 ✔︎ betterstack: I Switched from tRPC to oRPC (Here’s Why) \[Better Stack\] - YouTube](https://www.youtube.com/watch?v=vl-Iir69lUA)
 
 ### Frontend frameworks for existing backend
 - https://github.com/marmelab/react-admin - React/MUI for REST+GraphQL backends, ListGuesser to render tables based on type of data
