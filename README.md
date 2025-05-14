@@ -141,6 +141,7 @@ The idea of https://todomvc.com is similar, but it's outdated and does not inclu
   - https://github.com/supabase/supabase - supposedly hard to self-host; realtime REST+GraphQL on Postgres, files, dashboard
   - https://github.com/appwrite/appwrite - easy self-host via Docker, PHP, NoSQL API for MariaDB, dashboard
   - https://github.com/pocketbase/pocketbase - Go backend in one file, SQLite with realtime REST
+  - https://github.com/get-convex/convex-backend - realtime DB/backend with server functions and live-updated client state
 
 ### Reverse proxy / load balancing
 - https://github.com/NickMRamirez/Proxy-Benchmarks - fast to slow: HAProxy, NGINX, Envoy, Traefik, Caddy
